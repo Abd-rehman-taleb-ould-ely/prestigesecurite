@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prestige Security - Solutions de sécurité professionnelles</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"> <!-- Updated to the latest version -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="Prestige logo.png" alt="Prestige Logo" class="logo-img">
+                <span>PRESTIGE SECURITY</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active" data-i18n="nav.home">Accueil</a></li>
+                <li><a href="#about" class="nav-link" data-i18n="nav.about">À propos</a></li>
+                <li><a href="#services" class="nav-link" data-i18n="nav.services">Services</a></li>
+                <li><a href="#policies" class="nav-link" data-i18n="nav.policies">Politiques</a></li>
+                <li><a href="#contact" class="nav-link" data-i18n="nav.contact">Contact</a></li>
+            </ul>
+            <div class="language-select-nav">
+                <select id="langSelect" onchange="changeLanguage(this.value)">
+                    <option value="fr" selected>🇫🇷 Français</option>
+                    <option value="en">🇬🇧 English</option>
+                </select>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-logo-container">
+                <div class="hero-logo-container-img">
+                    <img src="Prestige logo.png" alt="Prestige Security Logo" class="hero-logo-img">
+                </div>
+                <h1 class="hero-title">PRESTIGE SECURITY</h1>
+                <p class="hero-subtitle" data-i18n="hero.subtitle">Votre confiance, notre priorité</p>
+            </div>
+            <p class="hero-description" data-i18n="hero.description">
+                Solutions de sécurité professionnelles adaptées pour protéger ce qui compte le plus pour vous
+            </p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" data-i18n="hero.btn_explore" onclick="scrollToSection('#services')">Explorer les services</button>
+                <button class="btn btn-secondary" data-i18n="hero.btn_contact" onclick="scrollToSection('#contact')">Nous contacter</button>
+            </div>
+        </div>
+        <div class="hero-background"></div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="about.title">À propos de nous</h2>
+                <p class="section-subtitle" data-i18n="about.subtitle">Dédié à l'excellence en matière de sécurité</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3 data-i18n="about.who_title">Qui nous sommes</h3>
+                    <p data-i18n="about.p1">
+                        Prestige Security est un fournisseur leader de solutions de sécurité complètes avec plus de 15 ans d'expérience dans l'industrie.
+                        Nous sommes fiers de fournir un service exceptionnel et de maintenir les plus hauts standards de professionnalisme.
+                    </p>
+                    <p data-i18n="about.p2">
+                        Notre équipe de professionnels de la sécurité hautement qualifiés s'engage à protéger vos biens, événements et personnel avec
+                        des techniques à la pointe de la technologie et des stratégies personnalisées.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h4 data-i18n="stats.clients_value">20+</h4>
+                            <p data-i18n="stats.clients_label">Clients servis</p>
+                        </div>
+                        <div class="stat">
+                            <h4 data-i18n="stats.years_value">15+</h4>
+                            <p data-i18n="stats.years_label">Années d'expérience</p>
+                        </div>
+                        <div class="stat">
+                            <h4 data-i18n="stats.support_value">24/7</h4>
+                            <p data-i18n="stats.support_label">Support disponible</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-image-img-wrapper">
+                        <img src="Company members.png" alt="Company Members" class="about-image-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="services.title">Nos services</h2>
+                <p class="section-subtitle" data-i18n="services.subtitle">Solutions de sécurité complètes</p>
+            </div>
+            <div class="services-grid">
+                <!-- Event Security -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h3 data-i18n="service.event.title">Sécurité des événements</h3>
+                    <p data-i18n="service.event.desc">
+                        Couverture de sécurité professionnelle pour les conférences, concerts, festivals et événements d'entreprise.
+                        Nous garantissons la sécurité tout en préservant l'atmosphère de votre événement.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> <span data-i18n="service.event.f1">Contrôle d'accès</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="service.event.f2">Gestion de la foule</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="service.event.f3">Évaluation des menaces</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="service.event.f4">Réponse d'urgence</span></li>
+                    </ul>
+                    <button class="btn btn-outline" data-i18n="btn.learn_more" onclick="openServiceModal('event')">En savoir plus</button>
+                </div>
+                <!-- VIP Protection -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <h3 data-i18n="service.vip.title">Protection VIP</h3>
+                    <p data-i18n="service.vip.desc">
+                        Services de sécurité personnelle d'élite pour les individus hautement profilés, les célébrités et les dignitaires.
+                        Équipes de protection discrètes, professionnelles et hautement qualifiées.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> <span data-i18n="service.vip.f1">Protection personnelle</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="service.vip.f2">Sécurité des déplacements</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="service.vip.f3">Renseignements sur les menaces</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="service.vip.f4">Transport sécurisé</span></li>
+                    </ul>
+                    <button class="btn btn-outline" data-i18n="btn.learn_more" onclick="openServiceModal('vip')">En savoir plus</button>
+                </div>
+                <!-- Corporate Security -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3 data-i18n="service.corporate.title">Sécurité d'entreprise</h3>
+                    <p data-i18n="service.corporate.desc">
+                        Solutions de sécurité complètes pour les entreprises de toutes tailles. De la protection des installations à la cybersécurité
+                        et aux programmes de sécurité des employés.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> <span data-i18n="service.corporate.f1">Protection des installations</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="service.corporate.f2">Systèmes de surveillance</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="service.corporate.f3">Prévention des pertes</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="service.corporate.f4">Évaluation des risques</span></li>
+                    </ul>
+                    <button class="btn btn-outline" data-i18n="btn.learn_more" onclick="openServiceModal('corporate')">En savoir plus</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Policies Section -->
+    <section id="policies" class="policies">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="policies.title">Politiques & Normes</h2>
+                <p class="section-subtitle" data-i18n="policies.subtitle">Notre engagement envers l'excellence</p>
+            </div>
+            <div class="policies-grid">
+                <div class="policy-card">
+                    <div class="policy-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3 data-i18n="policy.privacy.title">Politique de confidentialité</h3>
+                    <p data-i18n="policy.privacy.desc">
+                        Nous maintenons des protocoles de confidentialité stricts pour toutes les informations des clients. Toutes les données sont cryptées et
+                        stockées en toute sécurité conformément aux normes internationales de protection des données.
+                    </p>
+                    <button class="btn btn-text" data-i18n="btn.read_more" onclick="openPolicy('privacy')">Lire la suite</button>
+                </div>
+                <div class="policy-card">
+                    <div class="policy-icon">
+                        <i class="fas fa-gavel"></i>
+                    </div>
+                    <h3 data-i18n="policy.terms.title">Conditions de service</h3>
+                    <p data-i18n="policy.terms.desc">
+                        Nos conditions générales décrivent l'étendue des services, les responsabilités des clients et le règlement des litiges.
+                        Nous garantissons la transparence dans tous les contrats.
+                    </p>
+                    <button class="btn btn-text" data-i18n="btn.read_more" onclick="openPolicy('terms')">Lire la suite</button>
+                </div>
+                <div class="policy-card">
+                    <div class="policy-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3 data-i18n="policy.certifications.title">Certifications</h3>
+                    <p data-i18n="policy.certifications.desc">
+                        Tout notre personnel détient des licences et des certifications à jour délivrées par des organismes reconnus dans le secteur de la sécurité.
+                        Nous maintenons des normes de formation et de conformité continues.
+                    </p>
+                    <button class="btn btn-text" data-i18n="btn.read_more" onclick="openPolicy('certifications')">Lire la suite</button>
+                </div>
+                <div class="policy-card">
+                    <div class="policy-icon">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <h3 data-i18n="policy.conduct.title">Code de conduite</h3>
+                    <p data-i18n="policy.conduct.desc">
+                        Notre personnel adhère à un code d'éthique strict mettant l'accent sur le professionnalisme, l'intégrité et le respect
+                        de toutes les personnes, quelle que soit leur origine.
+                    </p>
+                    <button class="btn btn-text" data-i18n="btn.read_more" onclick="openPolicy('conduct')">Lire la suite</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="contact.title">Contactez-nous</h2>
+                <p class="section-subtitle" data-i18n="contact.subtitle">Contactez notre équipe dès aujourd'hui</p>
+            </div>
+                <div class="contact-content contact-only">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h4 data-i18n="contact.phone.label">Téléphone</h4>
+                        <p data-i18n="contact.phone.value">+222 26 50 00 50</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h4 data-i18n="contact.email.label">Email</h4>
+                        <p data-i18n="contact.email.value">contact@psp.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h4 data-i18n="contact.address.label">Adresse</h4>
+                        <p data-i18n="contact.address.value">Route de Nouadhibou, Nouakchott, Mauritania</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h4 data-i18n="contact.hours.label">Heures</h4>
+                        <p data-i18n="contact.hours.value">24/7 Disponible<br>Support d'urgence toujours actif</p>
+                    </div>
+                </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Prestige Security. <span data-i18n="footer.rights">Tous droits réservés.</span></p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/PrestigeSecuritePrivee" target="_blank" rel="noopener noreferrer" class="social-link facebook" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-link instagram" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://x.com/PrestigeSPrivee" target="_blank" rel="noopener noreferrer" class="social-link twitter" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.tiktok.com/@prestigesp" target="_blank" rel="noopener noreferrer" class="social-link tiktok" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                <a href="https://wa.me/22226500050" target="_blank" rel="noopener noreferrer" class="social-link whatsapp" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/prestige-s%C3%A9curit%C3%A9-priv%C3%A9e-psp-77a07b335/" target="_blank" rel="noopener noreferrer" class="social-link linkedin" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- Floating WhatsApp Button -->
+    <a id="whatsapp-float" class="whatsapp-float" href="https://wa.me/22226500050" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <!-- Modals -->
+    <!-- Service Modal -->
+    <div id="serviceModal" class="modal">
+        <div class="modal-content">
+            <button class="close" onclick="closeServiceModal()">&times;</button>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+    <!-- Policy Modal -->
+    <div id="policyModal" class="modal">
+        <div class="modal-content">
+            <button class="close" onclick="closePolicyModal()">&times;</button>
+            <div id="policyModalBody"></div>
+        </div>
+    </div>
+    <script src="i18n.js"></script>
+    <script src="script.js"></script>
+    <script>
+        // Set default language to French
+        localStorage.setItem('language', 'fr');
+        document.documentElement.lang = 'fr';
+        document.documentElement.dir = 'ltr';
+    </script>
+</body>
+</html>
