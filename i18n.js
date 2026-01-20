@@ -8,7 +8,11 @@ const translations = {
             policies: "Politiques",
             contact: "Contact"
         },
+        logo: {
+            text: "PRESTIGE SÉCURITÉ PRIVÉE"
+        },
         hero: {
+            title: "PRESTIGE SÉCURITÉ PRIVÉE",
             subtitle: "Votre confiance, Notre priorité",
             description: "Solutions de sécurité professionnelles adaptées pour protéger ce qui compte le plus pour vous",
             btn_explore: "Explorer les services",
@@ -137,7 +141,7 @@ const translations = {
             },
             conduct: {
                 title: "Code de conduite",
-                content: "<h4>1. Professionnalisme</h4><p>Tous les employés de Prestige Security maintiennent les normes les plus élevées de conduite professionnelle dans toutes les interactions avec les clients, les collègues et le public.</p><h4>2. Intégrité</h4><p>Nous menons les affaires avec honnêteté et transparence. Les conflits d'intérêts sont divulgués immédiatement et gérés de manière appropriée.</p><h4>3. Respect et inclusivité</h4><p>Nous respections la dignité et les droits de tous les individus indépendamment de la race, la couleur, la religion, le sexe, l'origine nationale, l'âge ou le handicap. La discrimination et le harcèlement de quelque sorte que ce soit sont strictement interdits.</p><h4>4. Confidentialité</h4><p>Toutes les informations des clients et les détails de sécurité sont traités avec stricte confidentialité. La divulgation non autorisée d'informations est motif de licenciement immédiat.</p><h4>5. Responsabilité</h4><p>Nous nous tenons responsables de nos actions. Tout acte répréhensible est étudié à fond et des mesures disciplinaires appropriées sont prises.</p><h4>6. Conformité</h4><p>Tous les employés respectent les lois applicables, les réglementations et les politiques de l'entreprise. La violation de ces normes peut entraîner une mesure disciplinaire ou un licenciement.</p>"
+                content: "<h4>1. Professionnalisme</h4><p>Tous les employés de Prestige Security maintiennent les normes les plus élevées de conduite professionnelle dans toutes les interactions avec les clients, les collègues et le public.</p><h4>2. Intégrité</h4><p>Nous menons les affaires avec honnêteté et transparence. Les conflits d'intérêts sont divulgués immédiatement et gérés de manière appropriée.</p><h4>3. Respect et inclusivité</h4><p>Nous respectons la dignité et les droits de tous les individus indépendamment de la race, la couleur, la religion, le sexe, l'origine nationale, l'âge ou le handicap. La discrimination et le harcèlement de quelque sorte que ce soit sont strictement interdits.</p><h4>4. Confidentialité</h4><p>Toutes les informations des clients et les détails de sécurité sont traités avec stricte confidentialité. La divulgation non autorisée d'informations est motif de licenciement immédiat.</p><h4>5. Responsabilité</h4><p>Nous nous tenons responsables de nos actions. Tout acte répréhensible est étudié à fond et des mesures disciplinaires appropriées sont prises.</p><h4>6. Conformité</h4><p>Tous les employés respectent les lois applicables, les réglementations et les politiques de l'entreprise. La violation de ces normes peut entraîner une mesure disciplinaire ou un licenciement.</p>"
             }
         }
     },
@@ -150,7 +154,11 @@ const translations = {
             policies: "Policies",
             contact: "Contact"
         },
+        logo: {
+            text: "PRESTIGE PRIVATE SECURITY"
+        },
         hero: {
+            title: "PRESTIGE PRIVATE SECURITY",
             subtitle: "Your Trust, Our Priority",
             description: "Professional security solutions tailored to protect what matters most to you",
             btn_explore: "Explore Services",
