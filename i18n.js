@@ -90,11 +90,11 @@ const translations = {
             subtitle: "Contactez notre équipe aujourd'hui",
             phone: {
                 label: "Téléphone",
-                value: "+222 26 50 00 50"
+                value: "+222 22 50 50 00"
             },
             email: {
                 label: "Email",
-                value: "contact@psp.com"
+                value: "contact@prestigesecurite-mr.com"
             },
             address: {
                 label: "Adresse",
@@ -236,11 +236,11 @@ const translations = {
             subtitle: "Contact Our Team Today",
             phone: {
                 label: "Phone",
-                value: "+222 37 50 00 50"
+                value: "+222 22 50 50 00"
             },
             email: {
                 label: "Email",
-                value: "contact@psp.com"
+                value: "contact@prestigesecurite-mr.com"
             },
             address: {
                 label: "Address",
@@ -292,3 +292,4 @@ const translations = {
         }
     }
 };
+
