@@ -23,7 +23,17 @@ const translations = {
             subtitle: "Dédiés à l'excellence en matière de sécurité",
             who_title: "Qui sommes-nous",
             p1: "Prestige Sécurité Privée est un fournisseur de solutions de sécurité complètes avec plus de 15 ans d'expérience dans l'industrie. Nous nous enorgueillissons de fournir un service exceptionnel et de maintenir les plus hauts standards de professionnalisme.",
-            p2: "Notre équipe de professionnels de la sécurité hautement formés s'engage à protéger vos actifs, événements et personnel avec des techniques de pointe et des stratégies personnalisées."
+            p2: "Notre équipe de professionnels de la sécurité hautement formés s'engage à protéger vos actifs, événements et personnel avec des techniques de pointe et des stratégies personnalisées.",
+            gallery: {
+                duty_title: "Vigilance Permanente",
+                duty_desc: "Nos agents assurent une présence protectrice et dissuasive, garantissant la sécurité des sites en toutes circonstances.",
+                group_title: "Une Équipe D'élite",
+                group_desc: "La force de notre collectif réside dans une formation rigoureuse et une cohésion sans faille pour les événements majeurs.",
+                hotel_title: "Experts en Sécurité",
+                hotel_desc: "Notre équipe de sécurité expérimentée offre une protection fiable et proactive grâce à une formation spécialisée, assurant la sécurité et la tranquillité d'esprit des clients dans tout environnement.",
+                crowd_title: "Coordination Sans Faille",
+                crowd_desc: "Une barrière humaine protectrice assurant une sécurité maximale lors de vos événements."
+            }
         },
         stats: {
             clients_value: "20+",
@@ -169,7 +179,17 @@ const translations = {
             subtitle: "Dedicated to Excellence in Security",
             who_title: "Who We Are",
             p1: "Prestige Private Security is a leading provider of comprehensive security solutions with over 15 years of industry experience. We pride ourselves on delivering exceptional service and maintaining the highest standards of professionalism.",
-            p2: "Our team of highly trained security professionals is committed to protecting your assets, events, and personnel with state-of-the-art techniques and personalized strategies."
+            p2: "Our team of highly trained security professionals is committed to protecting your assets, events, and personnel with state-of-the-art techniques and personalized strategies.",
+            gallery: {
+                duty_title: "Constant Vigilance",
+                duty_desc: "Our guards maintain a protective and deterrent presence, ensuring site security under all circumstances.",
+                group_title: "An Elite Team",
+                group_desc: "The strength of our collective lies in rigorous training and seamless cohesion for major events.",
+                hotel_title: "Trusted Security Experts",
+                hotel_desc: "Our experienced security team delivers reliable, proactive protection through specialized training, ensuring client safety and peace of mind in any setting.",
+                crowd_title: "Seamless Coordination",
+                crowd_desc: "A protective human barrier ensuring maximum security during your events."
+            }
         },
         stats: {
             clients_value: "20+",
